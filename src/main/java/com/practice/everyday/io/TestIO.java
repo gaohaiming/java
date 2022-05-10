@@ -8,6 +8,7 @@ public class TestIO  {
     public static void main(String[] args) {
         testIOStream();
     }
+    //读取文件并替换文件中的字符写入新的文件
     public static void testIOStream(){
         try {
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
